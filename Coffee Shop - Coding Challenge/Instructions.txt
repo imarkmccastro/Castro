@@ -1,0 +1,6 @@
+Coffee Shop
+
+Create system that can accommodate orders of Clients on the shop having the capabilities to buy in either or both the shops and computing the total. Each shop are selling 3 items:
+Macha, Latte, Americano | Spanish Bread, Garlic Bread, Brownies.
+
+Consider instances such as no input at all.

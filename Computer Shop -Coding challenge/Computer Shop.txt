@@ -1,0 +1,7 @@
+Computer Shop
+
+Create system that can accommodate clients who wants to rent in shop with different tiers: Vip, Pro, Standard. Each standand has different computation. Each user also has the capabilities to set their time to set.
+
+Consider instances that user can only input time capable to be computed by hour.
+Consider that user can input wrong tier so as much as
+possible make their input minimal.
