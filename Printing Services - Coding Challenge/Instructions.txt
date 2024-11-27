@@ -1,0 +1,5 @@
+
+
+Printing 
+
+Create system that can accomodate clients printing requests: considering packages: for a large packages (100) a 15% discount will be provided, medium packages (50) a 6% discount and for bundle package(10) a 1.5%.. Printing can accommodate paper(5 pesos each), photo paper(15 pesos) and Special paper (10 pesos)
