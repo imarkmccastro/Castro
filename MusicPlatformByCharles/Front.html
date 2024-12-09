@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CharlesTunes</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#playlists">Playlists</a></li>
+        <li><a href="#songs">Songs</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div id="darkModeToggle" class="dark-mode-toggle">
+      <span>🌙</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>When words fail Music speaks</h1>
+      <p>Listen to the best music wherever you are.</p>
+    </section>
+
+    <section id="search">
+      <input type="text" id="searchInput" placeholder="Search for a song..." onkeyup="searchSongs()">
+    </section>
+
+    <section id="playlists">
+      <h2>Playlists</h2>
+      <div class="playlist" onclick="loadPlaylist('favorites')">Favorites</div>
+      <div class="playlist" onclick="loadPlaylist('topHits')">Top Hits</div>
+    </section>
+
+    <section id="songs">
+      <h2>Featured Songs</h2>
+      <div class="song-grid"></div>
+    </section>
+
+    <div id="audioPlayer">
+      <audio id="audioElement" controls>
+        <source id="audioSource" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <button id="closePlayer">Close</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 CharlesTune. All rights reserved.</p>
+  </footer>
+
+  <script src="Back.js"></script>
+</body>
+</html>
